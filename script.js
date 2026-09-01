@@ -21,7 +21,7 @@ for (let i = 1; i <= 19; i++) {
 
 const frame = document.createElement("img");
 
-frame.src = "images/frame.png";
+frame.src = "./images/frame.png";
 frame.id = "frame";
 
 collage.appendChild(frame);

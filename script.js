@@ -18,6 +18,16 @@ for (let i = 1; i <= 19; i++) {
     layers.push(img);
 }
 
+// NIERUCHOMA RAMKA
+
+const frame = document.createElement("img");
+
+frame.src = "images/frame.png";
+frame.id = "frame";
+
+collage.appendChild(frame);
+
+
 
 function moveLayers(x, y) {
 
@@ -78,19 +88,3 @@ motionButton.addEventListener("click", () => {
     startMotion();
     motionButton.style.display = "none";
 });
-
-#frame {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    object-fit: contain;
-    display: block;
-
-    z-index: 1000;
-
-    pointer-events: none;
-}

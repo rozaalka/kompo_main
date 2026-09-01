@@ -55,4 +55,6 @@ body {
     z-index: 1000;
 
     pointer-events: none;
+
+    transform: scale(1.05);
 }

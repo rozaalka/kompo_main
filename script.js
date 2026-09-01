@@ -78,3 +78,19 @@ motionButton.addEventListener("click", () => {
     startMotion();
     motionButton.style.display = "none";
 });
+
+#frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    display: block;
+
+    z-index: 1000;
+
+    pointer-events: none;
+}

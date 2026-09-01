@@ -55,6 +55,4 @@ body {
     z-index: 1000;
 
     pointer-events: none;
-
-    outline: 10px solid red;
 }

@@ -18,16 +18,6 @@ for (let i = 1; i <= 19; i++) {
     layers.push(img);
 }
 
-// NIERUCHOMA RAMKA
-
-const frame = document.createElement("img");
-
-frame.src = "images/frame.png";
-frame.id = "frame";
-
-collage.appendChild(frame);
-
-
 
 function moveLayers(x, y) {
 

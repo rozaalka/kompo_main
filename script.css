@@ -56,5 +56,5 @@ body {
 
     pointer-events: none;
 
-    background: red;
+    outline: 10px solid red;
 }
